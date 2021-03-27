@@ -11,4 +11,4 @@ finally in [the settings](vivaldi://settings/) got to Custom UI Modifications an
 3. this file will reskin the maximize/minimize/close buttons to match
 4. (as closely as possible) those of Breeze window decorations.
 5. non-native-window-with-shadow-kde.mp4: a little tutorial that shows how to have window shadow when using non-native window.
-[[!Border settings](non-native-window-with-shadow-kde.png)](non-native-window-with-shadow-kde.mp4 "Border settings video")
+[[!Border settings](non-native-window-with-shadow-kde.png)](non-native-window-with-shadow-kde.mp4)

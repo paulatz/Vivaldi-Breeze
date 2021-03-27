@@ -13,4 +13,4 @@ finally in [the settings] <vivaldi://settings/> got to Custom UI Modifications a
 5. non-native-window-with-shadow-kde.mp4: a little tutorial that shows how to have window shadow when using non-native window.
 [![Border settings](non-native-window-with-shadow-kde.png)](https://github.com/paulatz/Vivaldi-Breeze/raw/master/non-native-window-with-shadow-kde.mp4)
 
-<a href="vivaldi://experiments/>test</a>
+<a href="vivaldi://experiments/">test</a>

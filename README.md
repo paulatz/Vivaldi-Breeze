@@ -1,8 +1,8 @@
 # Vivaldi-Breeze
 Tweaks to the Vivaldi browser to match KDE/Plasma Breeze theme. 
 In order to add these tweaks to Vivaldi, place the CSS files in a new folder,
-then go to [Vivaldi Experiments](vivaldi://experiments/) and enable "Allow for using CSS modifications",
-finally in [the settings](vivaldi://settings/) got to Custom UI Modifications and select the folder above.
+then go to [Vivaldi Experiments] <vivaldi://experiments/> and enable "Allow for using CSS modifications",
+finally in [the settings] <vivaldi://settings/> got to Custom UI Modifications and select the folder above.
 
 1. tabs.css: change the look of tabs to match more closely the one of KDE. Should be used with a theme with the following settings
 (you can use the accent color or not according to your taste)

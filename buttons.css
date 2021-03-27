@@ -1,0 +1,105 @@
+/* Reskin the maximazi, minimize and close buttons to the one used by Breeze window
+ decorations when using non-native window. 
+ This is a best-effor, as it is not possible to get a perfect match.
+ 
+ In order to have window shade you also need to:
+ 1. setup a kwin window rule to setting "Window class"="vivaldi-stable" and "No titlebar and frame"="Force No"
+ 2. setup a Windows specifi override in Breeze theme (click on the pen icon over in the corner of the preview)
+    setting "Window class"=vivaldi-stable and select "No border"
+ */
+
+.window-buttongroup button.window-minimize{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #efefef;
+    background-color: #efefef !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 2px 0 0 0;
+}
+.window-buttongroup button.window-minimize:hover{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #232627;
+    background-color: #232627 !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 2px 0 0 0;
+    fill: #fff !important;
+}
+
+
+.window-buttongroup button.window-maximize{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #efefef;
+    background-color: #efefef !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 2px 0 0 0;
+    /* leave a little space before the close button */
+    margin-right: 4px !important;
+}
+.window-buttongroup button.window-maximize:hover{
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #232627;
+    background-color: #232627 !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 2px 0 0 0;
+    fill: #fff !important;
+    margin-right: 4px !important;
+}
+
+
+.window-buttongroup button.window-close{
+    border-radius: 9px;
+    border-style: solid;
+    border-width: 2px !important;
+    border-color: #232627 !important;
+    background-color: #232627 !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 2px 0 0 0;
+    fill: #e4e4e4 !important;
+}
+.window-buttongroup button.window-close:hover{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px !important;
+    border-color: #efefef !important;
+    background-color: #da4453 !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 2px 0 0 0;
+    fill: #fff !important;
+}
+
+
+.window-buttongroup .window-minimize svg path {
+    d: path("M 1,2 5,6 9,2 10,3 5,8 0,3 Z");
+  }
+.window-buttongroup .window-maximize svg .window-maximize-glyph path {
+    d: path("M 1,8 5,4 9,8 10,7 5,2 0,7 Z");
+  }
+  .window-buttongroup .window-maximize svg .window-restore-glyph path {
+    d: path("M 1,8 5,4 9,8 10,7 5,2 0,7 Z");
+  }
+
+  /* Close window X symbol is always a bit shorter and thicker than it should, I have not been able
+     to fix it properly yet */
+  .window-buttongroup .window-close svg {
+      /*width: 16px;
+      height:16px;*/
+      path {
+        //d: path("m1.25 10 3.75-4.41 3.75 4.41h0.5v-0.588l-3.75-4.41 3.75-4.41v-0.588h-0.5l-3.75 4.41-3.75-4.41h-0.5v0.588l3.75 4.41-3.75 4.41v0.588z");
+        d: path("m0.588 10 4.41-4.41 4.41 4.41h0.588v-0.588l-4.41-4.41 4.41-4.41v-0.588h-0.588l-4.41 4.41-4.41-4.41h-0.588v0.588l4.41 4.41-4.41 4.41v0.588z");
+        //d: path("M 0.66666667,10 5,5.6666667 9.3333333,10 10,9.3333333 5.6666667,5 10,0.66666667 9.3333333,0 5,4.3333333 0.66666667,0 0,0.66666667 4.3333333,5 0,9.3333333 Z");
+        //d: path("M 0.66666667,10 5,5.6666667 9.3333333,10 H 10 V 9.3333333 L 5.6666667,5 10,0.66666667 V 0 H 9.3333333 L 5,4.3333333 0.66666667,0 H 0 V 0.66666667 L 4.3333333,5 0,9.3333333 V 10 Z");
+        //d: path("m1 10 4-4 4 4h1v-1l-4-4 4-4v-1h-1l-4 4-4-4h-1v1l4 4-4 4v1z");
+        //d: path("M 1,10 5,6 9,10 10,9 6,5 10,1 9,0 5,4 1,0 0,1 4,5 0,9 Z");
+        //d: path("M 0 0 L 0 1 L 1 0 L 0 0 z M 1 0 L 5 4 L 9 0 L 1 0 z M 9 0 L 10 1 L 10 0 L 9 0 z M 10 1 L 6 5 L 10 9 L 10 1 z M 10 9 L 9 10 L 10 10 L 10 9 z M 9 10 L 5 6 L 1 10 L 9 10 z M 1 10 L 0 9 L 0 10 L 1 10 z M 0 9 L 4 5 L 0 1 L 0 9 z ");
+        //d: path("M 5 -0.0078125 A 5.0069981 5.0069981 0 0 0 -0.0078125 5 A 5.0069981 5.0069981 0 0 0 5 10.007812 A 5.0069981 5.0069981 0 0 0 10.007812 5 A 5.0069981 5.0069981 0 0 0 5 -0.0078125 z M 2 1.25 L 5 4.25 L 8 1.25 L 8.75 2 L 5.75 5 L 8.75 8 L 8 8.75 L 5 5.75 L 2 8.75 L 1.25 8 L 4.25 5 L 1.25 2 L 2 1.25 z ");
+     }
+}

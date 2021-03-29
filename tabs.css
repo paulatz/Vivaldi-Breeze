@@ -18,20 +18,20 @@
   /*border: 1px solid #f4f4f4 !important;*/
   /*background-color: #f6f6f6;*/
   /*background-color: #e7e7e7;*/
-  background-color: #cdcfd0;
-  /*border-radius: 0px;*/
+  /*background-color: #cdcfd0;*/
+  border-radius: 2px 2px 0 0;
   margin: 0 0 0 -1px;
-  border-top: 1px solid var(--colorAccentBgDark);
-  border-left: 1px solid var(--colorAccentBgDark);
-  border-right: 1px solid var(--colorAccentBgDark);
+  border-top: 1px solid var(--colorAccentBorderDark);
+  border-left: 1px solid var(--colorAccentBorderDark);
+  border-right: 1px solid var(--colorAccentBorderDark);
   border-bottom: 1px solid var(--colorAccentBg);
   /* border: 1px;
   border-style: solid; */
 }
 /*UrlBar toolbar toolbar-mainbar toolbar-large*/
 .toolbar-mainbar{
-  border-top: 1px solid var(--colorAccentBg);
-  border-bottom: 1px solid var(--colorAccentBgDark);
+  /*border-top: 1px solid var(--colorAccentBorder);
+  border-bottom: 1px solid var(--colorAccentBorder);*/
 }
 
 .button-badge{

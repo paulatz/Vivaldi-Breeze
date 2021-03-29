@@ -52,3 +52,10 @@
 .close svg path {
     d: path("M 5.6253,13.21839 9,9.84369 l 3.3747,3.3747 h 0.84369 V 12.3747 L 9.84369,9 13.21839,5.6253 V 4.78161 H 12.3747 L 9,8.15631 5.6253,4.78161 H 4.78161 V 5.6253 L 8.15631,9 4.78161,12.3747 v 0.84369 z");
     }
+
+.UrlBar-AddressField{
+  border-radius: 2px;
+}
+.UrlBar-SearchField{
+  border-radius: 2px;
+}

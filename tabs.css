@@ -1,37 +1,24 @@
 .tabs-top .tab-position .tab{
-  /*border: 1px solid #f4f4f4 !important;*/
-  /*background-color: #f6f6f6;*/
-  /*background-color: #e7e7e7;*/
-  background-color: #cdcfd0;
-  /*border-radius: 0px;*/
   margin: 0 0 0 -1px;
-  border-top: 1px solid #b2b5b5;
-  border-left: 1px solid #b2b5b5;
-  border-right: 1px solid #b2b5b5;
-  border-bottom: 1px solid #cdcfd0;
-  /*border-bottom: 1px solid var(--colorAccentBg);*/
-  /* border: 1px;
-  border-style: solid; */
+  /*background-color: #cdcfd0;
+  border-top: 1px solid #bdbfc0;
+  border-left: 1px solid #bdbfc0;
+  border-right: 1px solid #bdbfc0;
+  border-bottom: 1px solid #cdcfd0;*/
+  background-color: var(--colorBorder);
+  border-top: 1px solid var(--colorBorderIntense);
+  border-left: 1px solid var(--colorBorderIntense);
+  border-right: 1px solid var(--colorBorderIntense);
+  border-bottom: 1px solid var(--colorBorderIntense);
 }
 
 .tabs-top .tab-position .active{
-  /*border: 1px solid #f4f4f4 !important;*/
-  /*background-color: #f6f6f6;*/
-  /*background-color: #e7e7e7;*/
-  /*background-color: #cdcfd0;*/
-  border-radius: 2px 2px 0 0;
+  border-radius: 3px 3px 0 0;
   margin: 0 0 0 -1px;
   border-top: 1px solid var(--colorAccentBorderDark);
   border-left: 1px solid var(--colorAccentBorderDark);
   border-right: 1px solid var(--colorAccentBorderDark);
   border-bottom: 1px solid var(--colorAccentBg);
-  /* border: 1px;
-  border-style: solid; */
-}
-/*UrlBar toolbar toolbar-mainbar toolbar-large*/
-.toolbar-mainbar{
-  /*border-top: 1px solid var(--colorAccentBorder);
-  border-bottom: 1px solid var(--colorAccentBorder);*/
 }
 
 .button-badge{
@@ -45,6 +32,8 @@
 }
 .close:hover{
   border-radius: 10px;
+  background-color: var(--colorAccentBg);
+  fill: var(--colorBorderFg);
   background-color: #da4453;
   fill: #fff !important;
 }

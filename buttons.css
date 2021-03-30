@@ -11,8 +11,8 @@
 .window-buttongroup button.window-minimize{
     border-radius: 10px;
     border-width: 2px;
-    border-color: #efefef;
-    background-color: #efefef !important;
+    border-color: var(--colorBg);
+    background-color: var(--colorBg) !important;
     width: 18px !important;
     height: 18px !important;
     padding: 2px 0 0 0;
@@ -32,8 +32,8 @@
 .window-buttongroup button.window-maximize{
     border-radius: 10px;
     border-width: 2px;
-    border-color: #efefef;
-    background-color: #efefef !important;
+    border-color: var(--colorBg);
+    background-color: var(--colorBg) !important;
     width: 18px !important;
     height: 18px !important;
     padding: 2px 0 0 0;
@@ -54,25 +54,25 @@
 
 
 .window-buttongroup button.window-close{
-    border-radius: 9px;
+    border-radius: 10px;
     border-style: solid;
     border-width: 2px !important;
-    border-color: #232627 !important;
+    border-color: var(--colorBg) !important;
     background-color: #232627 !important;
-    width: 18px !important;
-    height: 18px !important;
-    padding: 2px 0 0 0;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 1px 0 0 0;
     fill: #e4e4e4 !important;
 }
 .window-buttongroup button.window-close:hover{
     border-radius: 10px;
     border-style: solid;
     border-width: 2px !important;
-    border-color: #efefef !important;
+    border-color: var(--colorBg) !important;
     background-color: #da4453 !important;
-    width: 18px !important;
-    height: 18px !important;
-    padding: 2px 0 0 0;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 1px 0 0 0;
     fill: #fff !important;
 }
 
@@ -87,9 +87,11 @@
     d: path("M 1,8 5,4 9,8 10,7 5,2 0,7 Z");
   }
   .window-buttongroup .window-close svg path {
-    d: path("m1.6253 9.2184 3.3747-3.3747 3.3747 3.3747h0.84369v-0.84369l-3.3747-3.3747 3.3747-3.3747v-0.84369h-0.84369l-3.3747 3.3747-3.3747-3.3747h-0.84369v0.84369l3.3747 3.3747-3.3747 3.3747v0.84369z");
+    d: path("m1.6253 9.0621 3.3747-3.3747 3.3747 3.3747h0.84369v-0.84369l-3.3747-3.3747 3.3747-3.3747v-0.84369h-0.84369l-3.3747 3.3747-3.3747-3.3747h-0.84369v0.84369l3.3747 3.3747-3.3747 3.3747v0.84369z");
 }
-  /* Close window X symbol is always a bit shorter and thicker than it should, I have not been able
+/*    d: path("m1.6253 9.2184 3.3747-3.3747 3.3747 3.3747h0.84369v-0.84369l-3.3747-3.3747 3.3747-3.3747v-0.84369h-0.84369l-3.3747 3.3747-3.3747-3.3747h-0.84369v0.84369l3.3747 3.3747-3.3747 3.3747v0.84369z");
+*/
+/* Close window X symbol is always a bit shorter and thicker than it should, I have not been able
      to fix it properly yet */
   /*.window-buttongroup .window-close svg {*/
       /*width: 12px;

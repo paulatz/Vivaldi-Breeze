@@ -62,6 +62,6 @@
 }
 
 /* we make side bar a little bit lighter */
-.left div[id="panels"] div[id="switch"]{
-  background-color: var(--colorBgLight) !important;
+.left #panels #switch {
+  background-color: var(--colorBgLight);
 }

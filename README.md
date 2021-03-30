@@ -7,10 +7,8 @@ finally in vivaldi://settings/ got to Custom UI Modifications and select the fol
 1. tabs.css: change the look of tabs to match more closely the one of KDE. Should be used with a theme with the following settings
 (you can use the accent color or not according to your taste, and also add some rouded corners if you want, the theme will still work)
 ![Theme settings](theme-settings.png)
-2. buttons.css: if you want to use the non-native window (which saves quite a bit of vertical space),
-3. this file will reskin the maximize/minimize/close buttons to match
-4. (as closely as possible) those of Breeze window decorations.
-5. non-native-window-with-shadow-kde.mp4: a little tutorial that shows how to have window shadow when using non-native window. You may want to combine this with [KDE shapecorners](https://sourceforge.net/projects/shapecorners/) plugin to have rounded window corners.
+2. buttons.css: if you want to use the non-native window (which saves quite a bit of vertical space),. this file will reskin the maximize/minimize/close buttons to match (as closely as possible) those of Breeze window decorations.
+3. non-native-window-with-shadow-kde.mp4: a little tutorial that shows how to have window shadow when using non-native window. You may want to combine this with [KDE shapecorners](https://sourceforge.net/projects/shapecorners/) plugin to have rounded window corners.
 
 [![Border settings](non-native-window-with-shadow-kde.png)](https://github.com/paulatz/Vivaldi-Breeze/raw/master/non-native-window-with-shadow-kde.mp4)
 

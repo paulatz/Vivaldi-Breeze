@@ -14,5 +14,6 @@ finally in vivaldi://settings/ got to Custom UI Modifications and select the fol
 
 ## Known bugs
 1. Stacked tabs do not look nice
-2. Close button does not change color when window is active (probably unfixable)
-3. Title bar button glyphs are slightly smaller (this is caused by the original SVG being just 10x10, hard to fix)
+2. When "Start page" tab is not in foreground, an ugly favicon background is displayed.
+3. Close button does not change color when window is active (probably unfixable)
+4. Title bar button glyphs are slightly smaller (this is caused by the original SVG being just 10x10, hard to fix)

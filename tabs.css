@@ -23,7 +23,8 @@
 
 /* Put a lighter background to favicons, or they tend to disappear */
 .tabs-top .tab-position .active .tab-header .favicon{
-  border-radius: 10px;
+  /*border-radius: 10px;*/
+  border-radius: 2px;
   background-color: var(--colorAccentFgFaded);  
 }
 

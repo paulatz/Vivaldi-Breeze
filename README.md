@@ -13,7 +13,7 @@ finally in vivaldi://settings/ got to Custom UI Modifications and select the fol
 [![Border settings](non-native-window-with-shadow-kde.png)](https://github.com/paulatz/Vivaldi-Breeze/raw/master/non-native-window-with-shadow-kde.mp4)
 
 ## Known bugs
-1. Stacked tabs do not look nice
+1. Stacked tabs do not look nice (they do not look nice in plain Vivaldi either)
 2. When "Start page" tab is not in foreground, an ugly favicon background is displayed.
 3. Close button does not change color when window is active (probably unfixable)
 4. Title bar button glyphs are slightly smaller (this is caused by the original SVG being just 10x10, hard to fix)

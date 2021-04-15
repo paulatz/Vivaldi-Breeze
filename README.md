@@ -10,6 +10,8 @@ finally in vivaldi://settings/ got to Custom UI Modifications and select the fol
 2. buttons.css: if you want to use the non-native window (which saves quite a bit of vertical space),. this file will reskin the maximize/minimize/close buttons to match (as closely as possible) those of Breeze window decorations.
 3. non-native-window-with-shadow-kde.mp4: a little tutorial that shows how to have window shadow when using non-native window. You may want to combine this with [KDE shapecorners](https://sourceforge.net/projects/shapecorners/) plugin to have rounded window corners.
 
+*If you prefer to apply the Accent color to the window, use the -inverted version of the files, i.e. buttons-inverted.css and tabs-inverted.css*
+
 [![Border settings](non-native-window-with-shadow-kde.png)](https://github.com/paulatz/Vivaldi-Breeze/raw/master/non-native-window-with-shadow-kde.mp4)
 
 ## Known bugs

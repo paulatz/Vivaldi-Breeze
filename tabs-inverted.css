@@ -1,0 +1,84 @@
+.tabs-top .tab-position .tab{
+  margin: 0 0 0 -1px;
+  background-color: var(--colorAccent);
+  border-top:    1px solid var(--colorAccentBorderDark);
+  border-left:   1px solid var(--colorAccentBorderDark);
+  border-right:  1px solid var(--colorAccentBorderDark);
+  border-bottom: 1px solid var(--colorAccentBorderDark);
+}
+
+.tabs-top .tab-position .active{
+  border-radius: 3px 3px 0 0;
+  margin: 0 0 0 -1px;
+  border-top:    1px solid var(--colorBorderIntense);
+  border-left:   1px solid var(--colorBorderIntense);
+  border-right:  1px solid var(--colorBorderIntense);
+  border-bottom: 1px solid var(--colorBorderFaded);
+}
+
+/* Put a lighter background to favicons, or they tend to disappear */
+.tabs-top .tab-position .active .tab-header .favicon{
+  /*border-radius: 10px;*/
+  border-radius: 2px;
+  background-color: var(--colorAccentFgFaded);  
+}
+
+.button-badge{
+  color: #da4453;
+  background-color: var(--colorBg);
+  border-radius: 10px;
+  font-size: 8px;
+  padding-top: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  height: 12px;
+  min-width: 12px;
+}
+
+.close{
+  border-radius: 10px;
+  background-color: #898b8c;
+  fill: #fff !important;
+}
+.close:hover{
+  border-radius: 10px;
+  background-color: var(--colorAccentBg);
+  fill: var(--colorBorderFg);
+  background-color: #da4453;
+  fill: #fff !important;
+}
+
+
+.tab-position .tab .stack-counter{
+  background-color: var(--colorBg) !important;
+  border-radius: 10px !important;
+  font-size: 8px !important;
+  color: #4460da !important;
+  padding-top: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  height: 12px;
+  min-width: 12px;
+}
+
+
+.close svg path {
+    d: path("M 5.6253,13.21839 9,9.84369 l 3.3747,3.3747 h 0.84369 V 12.3747 L 9.84369,9 13.21839,5.6253 V 4.78161 H 12.3747 L 9,8.15631 5.6253,4.78161 H 4.78161 V 5.6253 L 8.15631,9 4.78161,12.3747 v 0.84369 z");
+    }
+
+.UrlBar-AddressField{
+  border-radius: 2px;
+}
+.UrlBar-SearchField{
+  border-radius: 2px;
+}
+
+.UrlField{
+  border-radius: 2px;
+}
+
+/* we make side bar a little bit lighter */
+.left #panels #switch {
+  background-color: var(--colorBgLight);
+}
+

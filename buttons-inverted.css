@@ -36,7 +36,7 @@
     background-color: var(--colorAccentIntense) !important;
     width: 16px !important;
     height: 16px !important;
-    padding: 1px 0 0 0;
+    padding: 1px 0 0 1px;
     /* leave a little space before the close button */
     margin-right: 4px !important;
 }
@@ -47,7 +47,7 @@
     background-color: #232627 !important;
     width: 16px !important;
     height: 16px !important;
-    padding: 1px 0 0 0;
+    padding: 1px 0 0 1px;
     fill: #fff !important;
     margin-right: 4px !important;
 }

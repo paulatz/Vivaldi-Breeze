@@ -13,18 +13,18 @@
     border-width: 2px;
     border-color: var(--colorBg);
     background-color: var(--colorBg) !important;
-    width: 18px !important;
-    height: 18px !important;
-    padding: 2px 0 0 0;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 1px 0 0 0;
 }
 .window-buttongroup button.window-minimize:hover{
     border-radius: 10px;
     border-width: 2px;
     border-color: #232627;
     background-color: #232627 !important;
-    width: 18px !important;
-    height: 18px !important;
-    padding: 2px 0 0 0;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 1px 0 0 0;
     fill: #fff !important;
 }
 
@@ -34,9 +34,9 @@
     border-width: 2px;
     border-color: var(--colorBg);
     background-color: var(--colorBg) !important;
-    width: 18px !important;
-    height: 18px !important;
-    padding: 2px 0 0 0;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 1px 0 0 0;
     /* leave a little space before the close button */
     margin-right: 4px !important;
 }
@@ -45,9 +45,9 @@
     border-width: 2px;
     border-color: #232627;
     background-color: #232627 !important;
-    width: 18px !important;
-    height: 18px !important;
-    padding: 2px 0 0 0;
+    width: 16px !important;
+    height: 16px !important;
+    padding: 1px 0 0 0;
     fill: #fff !important;
     margin-right: 4px !important;
 }

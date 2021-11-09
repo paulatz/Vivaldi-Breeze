@@ -8,9 +8,10 @@
 }
 
 .tabs-top .tab-position .active{
-  border-radius: 3px 3px 0 0;
+  border-radius: 4px 4px 0 0 !important;
   margin: 0 0 0 -1px;
-  border-top:    1px solid var(--colorBorderIntense);
+  /*border-top:    1px solid var(--colorBorderIntense);*/
+  border-top:    2px solid #96cfed;
   border-left:   1px solid var(--colorBorderIntense);
   border-right:  1px solid var(--colorBorderIntense);
   border-bottom: 1px solid var(--colorBorderFaded);
@@ -78,7 +79,7 @@
   border-radius: 2px;
 }
 
-/* we make side bar a little bit lighter */
+/* make side bar a little bit lighter */
 .left #panels #switch {
   background-color: var(--colorBgLight);
 }

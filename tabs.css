@@ -12,14 +12,23 @@
   border-bottom: 1px solid var(--colorBorderIntense);
 }
 
+.top[id="tabs-tabbar-container"]{
+  height : 29px !important;
+}
+
 .tabs-top .tab-position .active{
-  border-radius: 3px 3px 0 0;
-  margin: 0 0 0 -1px;
-  border-top: 1px solid var(--colorAccentBorderDark);
+  border-radius: 4px 4px 0 0;
+  margin: 0 0 0 0px;
+  border-top: 3px solid var(--colorAccentBorderDark);
   border-left: 1px solid var(--colorAccentBorderDark);
   border-right: 1px solid var(--colorAccentBorderDark);
   border-bottom: 1px solid var(--colorAccentBg);
 }
+
+.tabs-top .tab-position .active .title{
+    padding-bottom: 3px;
+  }
+
 
 /* Put a lighter background to favicons, or they tend to disappear */
 .tabs-top .tab-position .active .tab-header .favicon{

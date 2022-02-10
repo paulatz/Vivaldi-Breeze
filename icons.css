@@ -29,10 +29,17 @@ button[title="Go to homepage"] svg path{
 <path class="trashicon-bin" d="M17 10c.552 0 1 .448 1 1v8c0 1.105-.895 2-2 2h-7c-1.105 0-2-.895-2-2v-8l.007-.117c.058-.497.48-.883.993-.883s.936.386.993.883l.007.117v7c0 .552.448 1 1 1h5c.552 0 1-.448 1-1v-7l.007-.117c.058-.497.481-.883.993-.883z"></path>
 <path class="trashicon-content" opacity=".3" d="M10 10v8h1v-8h-1zM12 10v8h1v-8h-1zM14 18v-8h1v8h-1z"></path>
 </svg>*/
+
 .button-toolbar.toggle-trash button svg path[class="trashicon-bin"]{
    d: path("m11.042 6.1185c-1 0-1 1-1 1h-3s-1 0.0015-1 1.002v1.0039l13-0.00391v-1c0-1-1-1.002-1-1.002h-3s0-1-1-1zm-4 4.0059v9c5e-5 0.52358 0.47642 0.99995 1 1h9c0.52358-5e-5 0.99995-0.47642 1-1v-9h-2v8h-7v-8zm8 1-5 1v5h5z");
 }
-
+.button-toolbar.toggle-trash button svg path[class="trashicon-lid"]{
+    d: path("");
+ }
+ .button-toolbar.toggle-trash button svg path[class="trashicon-content"]{
+    d: path("");
+ }
+ 
 .button-toolbar.synced-tabs-button button svg path{
     d: path("m10.467 7c-2.2855 0.00192-4.3158 1.493-5.0479 3.7073-1.4772 0.7259-2.4173 2.2529-2.4188 3.929 0 2.41 1.9103 4.3636 4.2667 4.3636 1.0463-0.0021 2.0554-0.3973 2.8354-1.1105 0.12128 0.0108 0.24288 0.01735 0.36459 0.01964 0.77929-0.0022 1.5486-0.17912 2.2539-0.51818 0.619 0.33954 1.3104 0.51753 2.0128 0.51818 2.3567-3.95e-4 4.2668-1.9548 4.266-4.365-2.16e-4 -2.4099-1.9106-4.3634-4.267-4.3632h-0.0085c-1.0054-1.371-2.5824-2.1781-4.2581-2.1808z");
 }
